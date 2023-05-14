@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+:root{
+    --main-beige-color: rgb(205, 205, 170);
+}
+
+
+body{
+    background: linear-gradient(180deg, rgba(90, 90, 133, 0.9) 0%, rgba(90, 90, 133, 0.9) 100%),
+    url(sources/fondo_estrellado.jpg);
+    background-blend-mode: normal;
+    background-size:cover;
+}
+h1{
+    color: var(--main-beige-color);
+    font-family: Fuzzy Bubbles;
+    font-weight:700 ;
+}
+h2{
+    color: var(--main-beige-color);
+    font-family: Fuzzy Bubbles;
+    font-weight:700 ;
+}
+h3{
+    color: var(--main-beige-color);
+    font-family: Fuzzy Bubbles;
+    font-weight:700 ;
+}
+h4{
+    font-size: medium;
+    color: var(--main-beige-color);
+    font-family: Andika;
+}
+
+
+    /* HEADER */
+
+#menu_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.q_srollMenu{
+    width: 50%;
+    margin-bottom: 1em;
+}
+p{
+    font-size: medium;
+    color: var(--main-beige-color);
+    font-family: Andika;
+}
+
+
+
+    /* SECTION  */
+section{
+    margin-top: 15%;
+}
+
+
+
+
+    /* ARTICLE >> CONTENEDOR DE BOTONES RESPEUSTA  */
+.answers_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    /* BOTONES  */
+.QA_main{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: rgb(247, 121, 86); */
+    font-size:20px;
+    background-size:400%;
+    border-radius:30px;
+    margin: 0.3em 0;
+    padding-left: 0.4em;
+    width: 270px;
+    height: 65px;
+    line-height:64px;
+    text-align:center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color:#fff;
+    /* animation */
+    /* white-space:nowrap; */
+    letter-spacing: 3px;
+    overflow:hidden;
+    transition: letter-spacing 0.3s;
+      -webkit-transition: letter-spacing 1s; 
+    transition-delay: 10s;
+      -webkit-transition-delay: 0.7s;
+
+}
+.QA_main:hover {
+    letter-spacing:7px;
+    transition-delay: 0s;
+      -webkit-transition-delay: 0s;  
+      animation:  a  8s linear Infinite;
+      box-shadow: 0 0px 52px 14px rgb(137, 239, 205);
+      transition: all 0.7s;
+  }
+  .ba1{
+    background-color: rgb(194, 54, 54);
+  }
+  .ba2{
+    background-color: rgb(236, 170, 120);
+  }
+  .ba3{
+    background-color: rgb(54, 152, 106);
+  }
+  .ba4{
+    background-color: rgb(55, 124, 210);
+  }
