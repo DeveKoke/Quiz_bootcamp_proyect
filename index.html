@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>UNIVERSAL QUIZZZ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plantilla simple HTML5">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>UNIVERSAL QUIZZZ... </h1>
+            <h2>Instrucciones</h2>
+            <p>Tienes 10 preguntas curiosas sobre el espacio, el sistema solar, planetas, etc. Cada pregunta tiene solo una respuesta correcta.</p>
+            <div id="menu_wrapper">
+                <a href="#Q1" ><img class="q_srollMenu" src="sources/one.png" alt="ir a pregunta 1"> </a>
+                <a href="#Q2" ><img class="q_srollMenu" src="sources/two.png" alt="ir a pregunta 2"> </a>
+                <a href="#Q3" ><img class="q_srollMenu" src="sources/three.png" alt="ir a pregunta 3"> </a>
+                <a href="#Q4" ><img class="q_srollMenu" src="sources/four.png" alt="ir a pregunta 4"> </a>
+                <a href="#Q5" ><img class="q_srollMenu" src="sources/five.png" alt="ir a pregunta 5"> </a>
+                <a href="#Q6" ><img class="q_srollMenu" src="sources/six.png" alt="ir a pregunta 6"> </a>
+                <a href="#Q7" ><img class="q_srollMenu" src="sources/seven.png" alt="ir a pregunta 7"> </a>
+                <a href="#Q8" ><img class="q_srollMenu" src="sources/eight.png" alt="ir a pregunta 8"> </a>
+                <a href="#Q9" ><img class="q_srollMenu" src="sources/nine.png" alt="ir a pregunta 9"> </a>
+                <a href="#Q10"><img class="q_srollMenu" src="" alt="ir a pregunta 10"> </a>
+            </div>
+        </header>
+        <hr>
+        <section>
+            <article id="Q1">
+                <h3>Pregunta 1:</h3>
+                <h4>¿En qué planeta del sistema solar dirías que hace más calor?</h4>
+                <div class="answers_container">
+                    <a class="QA_main ba1" id="Q1_A1"><img class="iconbutton" src="sources/saturn.png" alt="planet_icon"> Venus</a>
+                    <a class="QA_main ba2" id="Q1_A2"><img class="iconbutton" src="sources/half-moon.png" alt="planet_icon">Tatooine</a>
+                    <a class="QA_main ba3" id="Q1_A3"><img class="iconbutton" src="sources/star.png" alt="planet_icon">Marte</a>
+                    <a class="QA_main ba4" id="Q1_A4"><img class="iconbutton" src="sources/sun.png" alt="planet_icon">Mercurio</a>
+                </div>
+                <!-- mensaje en JS para insertar si es V o X -->
+                <p class="aswer_message"></p>   
+                <!-- icono de subida a menú -->
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q2">
+                <h3>Pregunta 2:</h3>
+                <h4>Si hicieses un viaje partiendo desde el Sol, ¿cuál sería el tercer planeta que te encontrarías?</h4>
+                <div class="answers_container">
+                    <button class="QA_main ba1" id="Q_A"><img class="iconbutton" src="sources/saturn.png" alt="planet_icon">Marte</button>
+                    <button class="QA_main ba2" id="Q_A"><img class="iconbutton" src="sources/half-moon.png" alt="planet_icon">Tierra</button>
+                    <button class="QA_main ba3" id="Q_A"><img class="iconbutton" src="sources/star.png" alt="planet_icon">Urano</button>
+                    <button class="QA_main ba4" id="Q_A"><img class="iconbutton" src="sources/sun.png" alt="planet_icon">Raticulín</button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q3">
+                <h3>Pregunta 3</h3>
+                <h4>El sistema solar tiene un cinturón de asteroides, se trata de muchos objetos rocosos flotanto en una misma órbita. ¿Entre qué dos planetas se encuentra este cinturón?</h4>
+                <div class="answers_container">
+                    <button class="QA_main ba1 QA_bigger" id="Q_A"><img class="iconbutton" src="sources/saturn.png" alt="planet_icon">Putón y Neptuno</button>
+                    <button class="QA_main ba2 QA_bigger" id="Q_A"><img class="iconbutton" src="sources/half-moon.png" alt="planet_icon">Marte y Júpiter</button>
+                    <button class="QA_main ba3 QA_bigger" id="Q_A"><img class="iconbutton" src="sources/star.png" alt="planet_icon">Saturno y Urano</button>
+                    <button class="QA_main ba4 QA_bigger" id="Q_A"><img class="iconbutton" src="sources/sun.png" alt="planet_icon">Venus y la Tierra</button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <!-- <article id="Q4">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q5">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q6">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q7">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q8">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q9">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+            <article id="Q10">
+                <h3></h3>
+                <h4></h4>
+                <div class="answers_container">
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                    <button class="QA_main" id="Q_A"></button>
+                </div>
+                <p class="aswer_message"></p>
+                <a href="#menu_wrapper"><img id="arrow_up" src="sources/arrow-up.png" alt="icono de subida"></a>
+            </article>  
+        </section>
+    </main>
+</body>
+<script src="scripts.js"></script>
+</html>
