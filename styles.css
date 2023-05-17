@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+:root{
+    --main-beige-color: rgb(205, 205, 170);
+    --main-green-color: rgb(41, 243, 71);
+    --main-purple-color: rgb(108, 12, 181);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(180deg, rgba(90, 90, 133, 0.9) 0%, rgba(90, 90, 133, 0.9) 100%),
+    url(sources/fondo_estrellado.jpg);
+    background-blend-mode: normal;
+    background-size:cover;
+}
+h1{
+    color: var(--main-beige-color);
+    font-family: Fuzzy Bubbles;
+    font-weight:700 ;
+    margin-top: 1em;
+    font-size: xx-large;
+}
+h2{
+    color: var(--main-beige-color);
+    font-family: Fuzzy Bubbles;
+    font-weight:700 ;
+    margin-top: 0.5em;
+    font-size: x-large;
+}
+h3{
+    color: var(--main-beige-color);
+    font-family: Fuzzy Bubbles;
+    font-weight:700 ;
+    font-size: larger;
+}   
+p{
+    font-size: large;
+    color: var(--main-beige-color);
+    font-family: Andika;
+}
+
+
+    /* HEADER */
+header{
+        margin: 0% 2% 7%;
+}
+#menu_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+.q_srollMenu{
+    width: 72%;
+    margin-bottom: 1em;
+}
+
+
+/* FORMULARIO */
+form{
+    margin: 15% 3% 10%;
+}
+
+/* CONTAINERS */
+.question_wrapper{
+margin-top: 5em;
+margin-bottom: 1.5em;
+
+}
+.containerButtons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.containerMulti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#finalButtons{
+    margin: 2.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+/* MULTIMEDIA */
+#videoQ3{
+    width: 90%;
+    box-shadow: 0 0px 24px 6px rgb(156, 106, 66);
+    border-radius: 15px;
+    margin: 1.2em 0;
+}
+#andromeda{
+    width: 90%;
+    box-shadow: 0 0px 24px 6px rgb(239, 228, 174);
+    border-radius: 15px;
+    margin: 1.2em 0;
+}
+
+
+/* BUTTONS LABELS & ICONS */
+
+.labelButtons{
+
+text-decoration: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/* background-color: rgb(247, 121, 86); */
+font-size:20px;
+background-size:400%;
+border-radius:30px;
+margin: 0.5em 0.3em;
+padding-left: 0.4em;
+width: 325px;
+height: 65px;
+line-height:64px;
+text-align:center;
+box-sizing: border-box;
+text-transform: uppercase;
+color:#fff;
+/* animation */
+/* white-space:nowrap; */
+letter-spacing: 3px;
+overflow:hidden;
+transition: letter-spacing 0.3s;
+  -webkit-transition: letter-spacing 1s; 
+transition-delay: 10s;
+  -webkit-transition-delay: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.labelButtons:hover {
+    letter-spacing:7px;
+    transition-delay: 0s;
+      -webkit-transition-delay: 0s;  
+      animation:  a  8s linear Infinite;
+      box-shadow: 0 0px 52px 14px rgb(137, 239, 205);
+      transition: all 0.7s;
+    cursor: pointer;
+  }
+.ba1{
+    background-color: rgb(194, 54, 54);
+}
+.ba2{
+    background-color: rgb(236, 170, 120);
+}
+.ba3{
+    background-color: rgb(54, 152, 106);
+}
+.ba4{
+    background-color: rgb(55, 124, 210);
+}
+.iconbutton{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+input[type=radio] {
+     border: 0px; 
+     width: 8%; 
+     height: 1.6em; 
+}
+input[type=text]{
+    width: 250px;
+    height: 45px;
+    background-color: rgb(191, 191, 140);
+    font-family: Andika;
+    font-size: larger;
+    border-radius: 3%;
+    box-shadow: 0 0px 22px 2px var(--main-beige-color);
+    margin-top: 1em;
+}
+input[type=submit], input[type=reset]{
+   width: 9.5em;
+   height: 3.3em;
+   border-radius: 59%;
+   font-size: large;
+    box-shadow: 0 0px 22px 2px rgb(126, 123, 123);
+    background-color: rgb(62, 209, 148);
+    color: rgb(84, 50, 126);
+    margin: 0.8em;
+}
+#reset{
+    visibility: hidden;
+}
+.buttonCorrect{
+    background-color: rgb(36, 235, 241);
+    color: rgb(108, 12, 181);
+    border: solid 4px rgb(181, 133, 12);
+  }
+
+
+
+#arrow_up{
+    width: 10%;
+}
+    @-webkit-keyframes arrow_up {
+        16.65% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+      
+        33.3% {
+          -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+        }
+      
+        49.95% {
+          -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+        }
+      
+        66.6% {
+          -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+        }
+      
+        83.25% {
+          -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+        }
+      
+        100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+    }
+    
+    @keyframes arrow_up {
+        16.65% {
+          -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+        }
+      
+        33.3% {
+          -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+        }
+      
+        49.95% {
+          -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+        }
+      
+        66.6% {
+          -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+        }
+      
+        83.25% {
+          -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+        }
+      
+        100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+    }
+    #arrow_up:hover{
+      -webkit-animation-name: arrow_up;
+      animation-name: arrow_up;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+    }
