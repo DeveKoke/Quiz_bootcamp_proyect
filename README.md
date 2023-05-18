@@ -2,7 +2,7 @@
 
 ## Quiz de Preguntas - README
 
-Este es un Quiz de preguntas básico desarrollado utilizando HTML, CSS y JavaScript. El objetivo del quiz es presentar una serie de preguntas sobre el universo  o el sistema solar al usuario y evaluar sus respuestas.
+Este es un Quiz de preguntas básico diseñado para niños utilizando HTML, CSS y JavaScript. El objetivo del quiz es presentar una serie de preguntas sobre el universo  o el sistema solar al usuario y evaluar sus respuestas.
 
 ### Funcionamiento del código
 
